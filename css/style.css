@@ -1,0 +1,13 @@
+body{
+    background-image: url("../content/grass_texture.png");
+    background-repeat: repeat;
+}
+
+#sprite {
+    height: 64px;
+    width: 64px;    
+    background: url('../content/sprite.png') 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
