@@ -1,13 +1,49 @@
 body{
-    background-image: url("../content/grass_texture.png");
-    background-repeat: repeat;
+    background-image: url("../content/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#sprite {
-    height: 64px;
-    width: 64px;    
-    background: url('../content/sprite.png') 0px 0px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
+/*.headline{
+    background-color: white;
+    width: 10rem;
+    margin: auto; 
+    <div class="headline"><h1>S i m o n</h1><h1>K n o l l</h1> </div>
+}
+*/
+#content{
+    height: 20rem;
+    width: 45rem;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: rgb(255, 255, 255, 0.8); 
+    border: black 10px solid;
+}
+
+h1, p, li{
+    padding-left: 3rem;
+
+}
+
+h1{
+    width: 24rem;
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+
+p, li{
+    width: 20rem;
+    margin: auto;
+    list-style: none; 
+}
+#gamei{
+    float: left;
+    margin-left: 10.5rem;
+    width: 14rem;
+    text-align: center;
+    padding-top: 0.35rem;
+}
+
